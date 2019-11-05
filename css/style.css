@@ -296,6 +296,8 @@ input, select {
         grid-column: 1 / span 5;
         grid-row: 1 / span 1;
     }
+
+    /* gallery for tablet */
     .gallery-container {
         display: grid;
         padding: 15px;
@@ -303,106 +305,98 @@ input, select {
         grid-row-gap: 15px;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         width: 100vw;
+        justify-items: center;
+        align-items: center;
     }
     .cc_cookies-card {
         grid-column: 1;
         grid-row: 1;
-        justify-self: center;
-        margin: auto;
+        border: 3px solid lavender;
     }
     .brownies-card{
         grid-column: 2;
         grid-row: 1;
-        justify-self: center;
-        margin: auto;
+        border: 3px solid lavender;
     }
     .cupcakes-card{
         grid-column: 1;
         grid-row: 2;
-        justify-self: center;
-        margin: auto;
+        border: 3px solid lavender;
     }
     .pb_cookies-card{
         grid-column: 2;
         grid-row: 2;
-        justify-self: center;
-        margin: auto;
+        border: 3px solid lavender;
     }
     .santa_brownies-card{
         grid-column: 1;
         grid-row: 3;
-        justify-self: center;
-        margin: auto;
+        border: 3px solid lavender;
     }
     .pb_cake-card {
         grid-column: 2;
         grid-row: 3;
-        justify-self: center;
-        margin: auto;
+        border: 3px solid lavender;
     }
     .rice_krispies-card {
         grid-column: 1;
         grid-row: 4;
-        justify-self: center;
-        margin: auto;
+        border: 3px solid lavender;
     }
     .pineapple_cake-card{
         grid-column: 2;
         grid-row: 4;
-        justify-content: center;
-        margin: auto;
+        border: 3px solid lavender;
     }
     .baby_cookies-card {
-        justify-self: center;
-        margin: auto;
+        border: 3px solid lavender;
         grid-column: 1;
         grid-row: 5;
     }
     .apple_cake-card{
-        justify-self: center;
-        margin: auto;
+        border: 3px solid lavender;
         grid-column: 2;
         grid-row: 5;
     }
     .cc_cookies-card img {
-        width:350px;
-        height:250px;
+        width:100%;
+        height:100%;
     }
     .brownies-card img {
-        width:350px;
-        height:250px;
+        width:100%;
+        height:100%;
     }
     .cupcakes-card img {
-        width:350px;
-        height:250px;
+        width:100%;
+        height:100%;
     }
     .pb_cookies-card img {
-        width:350px;
-        height:250px;
+        width:100%;
+        height:100%;
     }
     .santa_brownies-card img {
-        width:350px;
-        height:250px;
+        width:100%;
+        height:100%;
     }
     .pb_cake-card img {
-        width:350px;
-        height:250px;
+        width:100%;
+        height:100%;
     }
     .rice_krispies-card img {
-        width:350px;
-        height:250px;
+        width:100%;
+        height:100%;
     }
     .baby_cookies-card img {
-        width:350px;
-        height:250px;
+        width:100%;
+        height:100%;
     }
     .pineapple_cake-card img {
-        width:350px;
-        height:250px;
+        width:100%;
+        height:100%;
     }
     .apple_cake-card img {
-        width:350px;
-        height:250px;
+        width:100%;
+        height:100%;
     }
 
 }
