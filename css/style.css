@@ -105,42 +105,42 @@ p {
 }
 .darcy {
     color: black;
-    font-size: 75px;
+    font-size: 65px;
     font-weight: bold;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .gallery {
-    grid-column: 1 / span 1;
+    grid-column: 1;
 }
 .cookbook-image {
     justify-self: center;
     margin: auto;
-    grid-column: 1 / span 1;
+    grid-column: 1;
 }
 .cookbook-image img { 
     width:200px;
     height:300px;
 }
 .For_sale {
-    grid-column: 1 / span 1;
+    grid-column: 1;
 }
 .for_sale-image {
     justify-self: center;
     margin: auto;
-    grid-column: 1 / span 1;
+    grid-column: 1;
 }
 .for_sale-image img {
     width:300px;
     height:150px;
 }
 .contact {
-    grid-column: 1 / span 1;
+    grid-column: 1;
 }
 .contact-image {
     justify-self: center;
     margin: auto;
-    grid-column: 1 / span 1;
+    grid-column: 1;
 }
 .contact-image img {
     width:300px;
@@ -209,8 +209,6 @@ p {
 .cc_cookies-card img {
     width:500px;
     height:400px;
-    width: 100%;
-    justify-items: center;
 }
 .brownies-card img {
     width:500px;
@@ -235,6 +233,7 @@ p {
 .rice_krispies-card img {
     width:500px;
     height:400px;
+
 }
 .baby_cookies-card img {
     width:500px;
@@ -256,15 +255,14 @@ p {
 .contact-container {
     padding: 15px;
     display: grid;
-    grid-template-columns: 500px;
+    grid-template-columns: 1fr;
     grid-row-gap: 15px;
     grid-column-gap: 15px;
-    grid-template-rows: 400px 400px; 
     width: 100vw;
 }
 form{
-    grid-column: 1 / span 1;
-    grid-row: 1 / span 1;
+    grid-column: 1;
+    text-align: center;
 }
 form div{
     display:inline-block;
@@ -274,10 +272,10 @@ form div{
 button.btn {
     display: block;
     margin: 0 auto;
+    background-color: white;
 }
 .mom {
-    grid-column: 1 / span 1;
-    grid-row: 2 /span 1;
+    grid-column: 1;
 }
 .mom img {
     width: 400px;
