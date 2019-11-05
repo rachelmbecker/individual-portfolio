@@ -88,8 +88,8 @@ p {
     text-align: center;
 }
 .text-block {
-    justify-self: center;
-    margin: auto;
+    /* justify-self: center;
+    margin: auto; */
     background-color: cornsilk;
     border: 10px solid lavender;
     padding: 30px;
