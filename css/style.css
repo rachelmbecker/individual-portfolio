@@ -284,7 +284,17 @@ input, select {
 }
 
 /* media query for tablet */
-@media screen and (min-width: 800px){
+@media screen and (min-width: 700px){
+    .index-header {
+        background-attachment: fixed;
+        background-image: url(../images/mom.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;                
+        grid-column: 1 / span 5;
+        grid-row: 1 / span 1;
+    }
 
 }
 
@@ -380,15 +390,15 @@ input, select {
         height:100px;
     }
 
-    /* page 2 - gallery */
-    /* citation: https://www.w3schools.com/howto/howto_css_flip_card.asp */
+    /* page 2 - gallery for desktop */
+    /* citation for flip cards: https://www.w3schools.com/howto/howto_css_flip_card.asp */
     .gallery-container {
         padding: 15px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-row-gap: 15px;
         grid-column-gap: 15px;
-        /* grid-template-rows: 400px 400px 400px 400px 400px;  */
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         width: 100vw;
     }
     .cc_cookies-card img {
@@ -401,7 +411,7 @@ input, select {
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 1;
-        /* grid-row: 1 / span 1; */
+        grid-row: 1;
     }
     .cc_cookies-card-content {
         position: relative;
@@ -439,6 +449,7 @@ input, select {
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 2;
+        grid-row: 1;
     }
     .brownies-card img {
         width:500px;
@@ -479,7 +490,8 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 1;
+        grid-column: 3;
+        grid-row: 1;
         justify-self: center;
     }
     .cupcakes-card img {
@@ -521,7 +533,8 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 2;
+        grid-column: 1;
+        grid-row: 2;
         margin: auto;
     }
     .pb_cookies-card img {
@@ -564,7 +577,7 @@ input, select {
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 2;
-        /* grid-row: 3 / span 1; */
+        grid-row: 2;
         align-content: center;
         justify-content: center;
     }
@@ -607,8 +620,8 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 1;
-        /* grid-row: 3 / span 1; */
+        grid-column: 3;
+        grid-row: 2;
         align-content: center;
         justify-content: center;
     }
@@ -651,7 +664,8 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 2;
+        grid-column: 1;
+        grid-row: 3;
         align-content: center;
         justify-content: center;
     }
@@ -694,7 +708,8 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 1;
+        grid-column: 2;
+        grid-row: 3;
         align-content: center;
         justify-content: center;
     }
@@ -737,7 +752,8 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 1;
+        grid-column: 3;
+        grid-row: 3;
         align-content: center;
         justify-content: center;
     }
@@ -781,6 +797,7 @@ input, select {
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 2;
+        grid-row: 4;
         align-content: center;
         justify-content: center;
     }
