@@ -63,7 +63,7 @@ h1{
 h2 {
     font-size: 25px;
     text-align: center;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 h3{
     font-size: 25px;
@@ -72,7 +72,7 @@ h3{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 h4{
     font-size: 25px;
@@ -87,12 +87,11 @@ footer {
 }
 p {
     text-align: center;
+    padding: 10px;
 }
 .text-block {
     background-color: cornsilk;
     border: 10px solid lavender;
-    padding: 20px;
-    width:100%;
 }
 
 /* index mobile view */
