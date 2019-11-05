@@ -1,0 +1,909 @@
+/* all pages  */
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: relative;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+a:focus{
+    top: 0px;
+}
+:focus {
+    border: 2px solid black;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+nav {
+    background-color: black;
+    overflow: hidden;  
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+nav a.active {
+    background-color: white;
+    color: black;
+}
+h1{
+    font-size: 40px;
+    line-height: 1;
+    padding: 25px 0;
+    text-align: center;
+    background-color: lemonchiffon;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {background-color: lemonchiffon;}
+    to {background-color: lightblue;}
+}
+h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+}
+h3{
+    font-size: 25px;
+    line-height: 1;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+}
+h4{
+    font-size: 25px;
+    background-color: lemonchiffon;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    color: white;
+    background: black;
+    font-size: 20px;
+}
+p {
+    text-align: center;
+}
+.text-block {
+    justify-self: center;
+    margin: auto;
+    background-color: cornsilk;
+    border: 10px solid lavender;
+    padding: 30px;
+}
+
+/* index mobile view */
+.index-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    grid-template-rows: 200px 200px 300px 250px 150px 200px 150px; 
+    width: 100vw; 
+}
+.darcy {
+    color: black;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.gallery {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+.cookbook-image {
+    justify-self: center;
+    margin: auto;
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+}
+.cookbook-image img { 
+    width:200px;
+    height:300px;
+}
+.For_sale {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+}
+.for_sale-image {
+    justify-self: center;
+    margin: auto;
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
+}
+.for_sale-image img {
+    width:300px;
+    height:150px;
+}
+.contact {
+    grid-column: 1 / span 1;
+    grid-row: 6 / span 1;
+}
+.contact-image {
+    justify-self: center;
+    margin: auto;
+    grid-column: 1 / span 1;
+    grid-row: 7 / span 1;
+}
+.contact-image img {
+    width:300px;
+    height:100px;
+}
+
+/* gallery mobile view */
+.gallery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    width: 100vw;
+    justify-self: center;
+    margin: auto;
+}
+.cc_cookies-card {
+    grid-column: 1;
+    justify-self: center;
+    margin: auto;
+}
+.brownies-card{
+    grid-column: 1;
+    justify-self: center;
+    margin: auto;
+    
+}
+.cupcakes-card{
+    grid-column: 1;
+    justify-self: center;
+    margin: auto;
+}
+.pb_cookies-card{
+    grid-column: 1;
+    justify-self: center;
+    margin: auto;
+}
+.santa_brownies-card{
+    grid-column: 1;
+    justify-self: center;
+    margin: auto;
+}
+.pb_cake-card {
+    grid-column: 1;
+    justify-self: center;
+    margin: auto;
+}
+.rice_krispies-card {
+    grid-column: 1;
+    justify-self: center;
+    margin: auto;
+}
+.pineapple_cake-card{
+    grid-column: 1;
+    justify-content: center;
+    margin: auto;
+}
+.baby_cookies-card {
+    justify-self: center;
+    margin: auto;
+}
+.apple_cake-card{
+    justify-self: center;
+    margin: auto;
+}
+.cc_cookies-card img {
+    width:500px;
+    height:400px;
+    justify-items: center;
+}
+.brownies-card img {
+    width:500px;
+    height:400px;
+}
+.cupcakes-card img {
+    width:500px;
+    height:400px;
+}
+.pb_cookies-card img {
+    width:500px;
+    height:400px;
+}
+.santa_brownies-card img {
+    width:500px;
+    height:400px;
+}
+.pb_cake-card img {
+    width:500px;
+    height:400px;
+}
+.rice_krispies-card img {
+    width:500px;
+    height:400px;
+}
+.baby_cookies-card img {
+    width:500px;
+    height:400px;
+}
+.pineapple_cake-card img {
+    width:500px;
+    height:400px;
+}
+.apple_cake-card img {
+    width:500px;
+    height:400px;
+}
+
+/* for sale and allergy page */
+
+
+/* contact page mobile view */
+.contact-container {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    grid-template-rows: 400px 400px; 
+    width: 100vw;
+}
+form{
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+form div{
+    display:inline-block;
+    width: 100%;
+    padding: 5px;
+}
+button.btn {
+    display: block;
+    margin: 0 auto;
+}
+.mom {
+    grid-column: 1 / span 1;
+    grid-row: 2 /span 1;
+}
+.mom img {
+    width: 400px;
+    height: 400px;
+}
+input, select {
+    height: 50px;
+    width: 400px;
+}
+
+/* media query for desktop */
+@media screen and (min-width: 1000px){
+    /* all pages */
+    nav li{
+        display: inline;
+        padding: 15px;
+    } 
+    nav a {
+        padding: 20px;
+    }
+    /* index */
+    .index-header {
+        background-attachment: fixed;
+        background-image: url(../images/mom.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;                
+        grid-column: 1 / span 5;
+        grid-row: 1 / span 1;
+    }
+    .darcy {
+        color: black;
+        font-size: 7em;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow:
+            0 1px 0 lavender, 
+            0 2px 0 lavender, 
+            0 3px 0 lavender, 
+            0 4px 0 lavender, 
+            0 5px 0 lavender, 
+            0 6px 1px rgba(0,0,0,.1), 
+            0 0 5px rgba(0,0,0,.1), 
+            0 1px 3px rgba(0,0,0,.3), 
+            0 3px 5px rgba(0,0,0,.2), 
+            0 5px 10px rgba(0,0,0,.25), 
+            0 10px 10px rgba(0,0,0,.2), 
+            0 20px 20px rgba(0,0,0,.15);
+        text-align: center;
+    }
+    .index-container {
+        display: grid;
+        grid-template-columns: 50px 300px 300px 300px 50px;
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+        grid-template-rows: 500px 300px 300px 300px; 
+        width: 100vw; 
+    }
+    .gallery {
+        grid-column: 2 / span 2;
+        grid-row: 2 / span 1;
+    }
+    .cookbook-image {
+        justify-self: center;
+        margin: auto;
+        grid-column: 4 / span 1;
+        grid-row: 2 / span 1;
+    }
+    .cookbook-image img { 
+        width:200px;
+        height:300px;
+    }
+    .For_sale {
+        grid-column: 2 / span 2;
+        grid-row: 3 / span 1;
+    }
+    .for_sale-image {
+        justify-self: center;
+        margin: auto;
+        grid-column: 4 / span 1;
+        grid-row: 3 / span 1;
+    }
+    .for_sale-image img {
+        width:300px;
+        height:150px;
+    }
+    .contact {
+        grid-column: 2 / span 2;
+        grid-row: 4 / span 1;
+    }
+    .contact-image {
+        justify-self: center;
+        margin: auto;
+        grid-column: 4 / span 1;
+        grid-row: 4 / span 1;
+    }
+    .contact-image img {
+        width:300px;
+        height:100px;
+    }
+
+    /* page 2 - gallery */
+    /* citation: https://www.w3schools.com/howto/howto_css_flip_card.asp */
+    .gallery-container {
+        padding: 15px;
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+        grid-template-rows: 400px 400px 400px 400px 400px; 
+        width: 100vw;
+    }
+    .cc_cookies-card img {
+        width:500px;
+        height:400px;
+    }
+    .cc_cookies-card {
+        width: 500px;
+        height: 400px;
+        perspective: 1000px; 
+        background-color: transparent;
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+    }
+    .cc_cookies-card-content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 black;
+    }
+    .cc_cookies-card:hover .cc_cookies-card-content{
+        transform: rotateY(180deg);
+    }
+    .cc_cookies-card:focus .cc_cookies-card-content{
+        transform: rotateY(180deg);
+    }
+    .cc_cookies-card-front, .cc_cookies-card-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .cc_cookies-card-front {
+        background-color: lavender;
+        color: black;
+    }
+    .cc_cookies-card-back {
+        background-color: lavender;
+        color: black;
+        transform: rotateY(180deg);
+    }
+    .brownies-card {
+        width: 500px;
+        height: 400px;
+        perspective: 1000px; 
+        background-color: transparent;
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+    }
+    .brownies-card img {
+        width:500px;
+        height:400px;
+    }
+    .brownies-card-content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 black;
+    }
+    .brownies-card:hover .brownies-card-content{
+        transform: rotateY(180deg);
+    }
+    .brownies-card:focus .brownies-card-content{
+        transform: rotateY(180deg);
+    }
+    .brownies-card-front, .brownies-card-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .brownies-card-front {
+        background-color: lavender;
+        color: black;
+    }
+    .brownies-card-back {
+        background-color: lavender;
+        color: black;
+        transform: rotateY(180deg);
+    }
+    .cupcakes-card {
+        width: 500px;
+        height: 400px;
+        perspective: 1000px; 
+        background-color: transparent;
+        grid-column: 1 / span 1;
+        grid-row: 5 / span 1;
+        justify-self: center;
+    }
+    .cupcakes-card img {
+        width:500px;
+        height:400px;
+    }
+    .cupcakes-card-content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 black;
+    }
+    .cupcakes-card:hover .cupcakes-card-content{
+        transform: rotateY(180deg);
+    }
+    .cupcakes-card:focus .cupcakes-card-content{
+        transform: rotateY(180deg);
+    }
+    .cupcakes-card-front, .cupcakes-card-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .cupcakes-card-front {
+        background-color: black;
+        color: black;
+    }
+    .cupcakes-card-back {
+        background-color: lavender;
+        color: black;
+        transform: rotateY(180deg);
+    }
+    .pb_cookies-card {
+        width: 500px;
+        height: 400px;
+        perspective: 1000px; 
+        background-color: transparent;
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 1;
+        margin: auto;
+    }
+    .pb_cookies-card img {
+        width:500px;
+        height:400px;
+    }
+    .pb_cookies-card-content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 black;
+    }
+    .pb_cookies-card:hover .pb_cookies-card-content{
+        transform: rotateY(180deg);
+    }
+    .pb_cookies-card:focus .pb_cookies-card-content{
+        transform: rotateY(180deg);
+    }
+    .pb_cookies-card-front, .pb_cookies-card-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .pb_cookies-card-front {
+        background-color: black;
+        color: black;
+    }
+    .pb_cookies-card-back {
+        background-color: lavender;
+        color: black;
+        transform: rotateY(180deg);
+    }
+    .santa_brownies-card {
+        width: 500px;
+        height: 400px;
+        perspective: 1000px; 
+        background-color: transparent;
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+        align-content: center;
+        justify-content: center;
+    }
+    .santa_brownies-card img {
+        width:500px;
+        height:400px;
+    }
+    .santa_brownies-card-content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 black;
+    }
+    .santa_brownies-card:hover .santa_brownies-card-content {
+        transform: rotateY(180deg);
+    }
+    .santa_brownies-card:focus .santa_brownies-card-content{
+        transform: rotateY(180deg);
+    }
+    .santa_brownies-card-front, .santa_brownies-card-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .santa_brownies-card-front {
+        background-color: lavender;
+        color: black;
+    }
+    .santa_brownies-card-back {
+        background-color: lavender;
+        color: black;
+        transform: rotateY(180deg);
+    }
+    .pb_cake-card {
+        width: 500px;
+        height: 400px;
+        perspective: 1000px; 
+        background-color: transparent;
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+        align-content: center;
+        justify-content: center;
+    }
+    .pb_cake-card img {
+        width:500px;
+        height:400px;
+    }
+    .pb_cake-card-content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 black;
+    }
+    .pb_cake-card:hover .pb_cake-card-content {
+        transform: rotateY(180deg);
+    }
+    .pb_cake-card:focus .pb_cake-card-content{
+        transform: rotateY(180deg);
+    }
+    .pb_cake-card-front, .pb_cake-card-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .pb_cake-card-front {
+        background-color: lavender;
+        color: black;
+    }
+    .pb_cake-card-back {
+        background-color: lavender;
+        color: black;
+        transform: rotateY(180deg);
+    }
+    .rice_krispies-card {
+        width: 500px;
+        height: 400px;
+        perspective: 1000px; 
+        background-color: transparent;
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;
+        align-content: center;
+        justify-content: center;
+    }
+    .rice_krispies-card img {
+        width:500px;
+        height:400px;
+    }
+    .rice_krispies-card-content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 black;
+    }
+    .rice_krispies-card:hover .rice_krispies-card-content {
+        transform: rotateY(180deg);
+    }
+    .rice_krispies-card:focus .rice_krispies-card-content {
+        transform: rotateY(180deg);
+    }
+    .rice_krispies-card-front, .rice_krispies-card-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .rice_krispies-card-front {
+        background-color: lavender;
+        color: black;
+    }
+    .rice_krispies-card-back {
+        background-color: lavender;
+        color: black;
+        transform: rotateY(180deg);
+    }
+    .baby_cookies-card {
+        width: 500px;
+        height: 400px;
+        perspective: 1000px; 
+        background-color: transparent;
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1;
+        align-content: center;
+        justify-content: center;
+    }
+    .baby_cookies-card img {
+        width:500px;
+        height:400px;
+    }
+    .baby_cookies-card-content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 black;
+    }
+    .baby_cookies-card:hover .baby_cookies-card-content {
+        transform: rotateY(180deg);
+    }
+    .baby_cookies-card:focus .baby_cookies-card-content {
+        transform: rotateY(180deg);
+    }
+    .baby_cookies-card-front, .baby_cookies-card-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .baby_cookies-card-front {
+        background-color: lavender;
+        color: black;
+    }
+    .baby_cookies-card-back {
+        background-color: lavender;
+        color: black;
+        transform: rotateY(180deg);
+    }
+    .pineapple_cake-card {
+        width: 500px;
+        height: 400px;
+        perspective: 1000px; 
+        background-color: transparent;
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        align-content: center;
+        justify-content: center;
+    }
+    .pineapple_cake-card img {
+        width:500px;
+        height:400px;
+    }
+    .pineapple_cake-card-content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 black;
+    }
+    .pineapple_cake-card:hover .pineapple_cake-card-content {
+        transform: rotateY(180deg);
+    }
+    .pineapple_cake-card:focus .pineapple_cake-card-content {
+        transform: rotateY(180deg);
+    }
+    .pineapple_cake-card-front, .pineapple_cake-card-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .pineapple_cake-card-front {
+        background-color: lavender;
+        color: black;
+    }
+    .pineapple_cake-card-back {
+        background-color: lavender;
+        color: black;
+        transform: rotateY(180deg);
+    }
+    .apple_cake-card {
+        width: 500px;
+        height: 400px;
+        perspective: 1000px; 
+        background-color: transparent;
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+        align-content: center;
+        justify-content: center;
+    }
+    .apple_cake-card img {
+        width:500px;
+        height:400px;
+    }
+    .apple_cake-card-content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 black;
+    }
+    .apple_cake-card:hover .apple_cake-card-content {
+        transform: rotateY(180deg);
+    }
+    .apple_cake-card:focus .apple_cake-card-content {
+        transform: rotateY(180deg);
+    }
+    .apple_cake-card-front, .apple_cake-card-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .apple_cake-card-front {
+        background-color: lavender;
+        color: black;
+    }
+    .apple_cake-card-back {
+        background-color: lavender;
+        color: black;
+        transform: rotateY(180deg);
+    }
+
+    /* page 3 - for sale */
+    .for_sale-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+        grid-template-rows: 300px 300px 300px 300px 300px; 
+        width: 100vw; 
+    }
+    .cc_cookies{
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+    }
+    .cc_cookies-cost {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+    }
+    .brownies{
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+    }
+    .brownies-cost {
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+    }
+    .cupcakes{
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+    }
+    .cupcakes-cost {
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+    }
+    .santa_brownies {
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1;
+    }
+    .santa_brownies-cost {
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;   
+    }
+    .pb_cake {
+        grid-column: 1 / span 1;
+        grid-row: 5 / span 1;
+    }
+    .pb_cake-cost {
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 1;
+    }
+
+    /* page 4 - contact me */
+    .contact-container {
+        padding: 15px;
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+        grid-template-rows: 400px; 
+        width: 100vw;
+    }
+    form{
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+    }
+    .mom {
+        grid-column: 2 / span 1;
+        grid-row: 1 /span 1;
+    }
+    .mom img {
+        filter: grayscale(50%);;
+    }
+    .mom img:hover {
+        filter: grayscale(0%);;
+    }
+}
