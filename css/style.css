@@ -289,7 +289,7 @@ input, select {
 @media screen and (min-width: 700px){
     /* index page tablet view */
     .darcy {
-        color:white;
+        color:black;
     }
     .index-header {
         background-attachment: fixed;
