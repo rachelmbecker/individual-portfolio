@@ -385,10 +385,10 @@ input, select {
     .gallery-container {
         padding: 15px;
         display: grid;
-        grid-template-columns: 500px 500px;
+        grid-template-columns: 1fr 1fr;
         grid-row-gap: 15px;
         grid-column-gap: 15px;
-        grid-template-rows: 400px 400px 400px 400px 400px; 
+        /* grid-template-rows: 400px 400px 400px 400px 400px;  */
         width: 100vw;
     }
     .cc_cookies-card img {
@@ -400,8 +400,8 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 1 / span 1;
-        grid-row: 1 / span 1;
+        grid-column: 1;
+        /* grid-row: 1 / span 1; */
     }
     .cc_cookies-card-content {
         position: relative;
@@ -438,8 +438,7 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 2 / span 1;
-        grid-row: 1 / span 1;
+        grid-column: 2;
     }
     .brownies-card img {
         width:500px;
@@ -480,8 +479,7 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 1 / span 1;
-        grid-row: 5 / span 1;
+        grid-column: 1;
         justify-self: center;
     }
     .cupcakes-card img {
@@ -523,8 +521,7 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 2 / span 1;
-        grid-row: 5 / span 1;
+        grid-column: 2;
         margin: auto;
     }
     .pb_cookies-card img {
@@ -566,8 +563,8 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 2 / span 1;
-        grid-row: 3 / span 1;
+        grid-column: 2;
+        /* grid-row: 3 / span 1; */
         align-content: center;
         justify-content: center;
     }
@@ -610,8 +607,8 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 1 / span 1;
-        grid-row: 3 / span 1;
+        grid-column: 1;
+        /* grid-row: 3 / span 1; */
         align-content: center;
         justify-content: center;
     }
@@ -654,8 +651,7 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 2 / span 1;
-        grid-row: 4 / span 1;
+        grid-column: 2;
         align-content: center;
         justify-content: center;
     }
@@ -698,8 +694,7 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 1 / span 1;
-        grid-row: 4 / span 1;
+        grid-column: 1;
         align-content: center;
         justify-content: center;
     }
@@ -742,8 +737,7 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 1 / span 1;
-        grid-row: 2 / span 1;
+        grid-column: 1;
         align-content: center;
         justify-content: center;
     }
@@ -786,8 +780,7 @@ input, select {
         height: 400px;
         perspective: 1000px; 
         background-color: transparent;
-        grid-column: 2 / span 1;
-        grid-row: 2 / span 1;
+        grid-column: 2;
         align-content: center;
         justify-content: center;
     }
