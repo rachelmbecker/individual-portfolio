@@ -63,7 +63,7 @@ h1{
 h2 {
     font-size: 25px;
     text-align: center;
-    padding: 15px;
+    padding-bottom: 15px;
 }
 h3{
     font-size: 25px;
@@ -91,7 +91,8 @@ p {
 .text-block {
     background-color: cornsilk;
     border: 10px solid lavender;
-    padding: 30px;
+    padding: 20px;
+    width:100%;
 }
 
 /* index mobile view */
@@ -287,15 +288,16 @@ input, select {
 /* media query for tablet */
 @media screen and (min-width: 700px){
     /* index page tablet view */
+    .darcy {
+        color:white;
+    }
     .index-header {
         background-attachment: fixed;
         background-image: url(../images/mom.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 500px;                
-        grid-column: 1 / span 5;
-        grid-row: 1 / span 1;
+        height: 500px;
     }
 
     /* gallery for tablet */
