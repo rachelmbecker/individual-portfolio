@@ -288,9 +288,6 @@ input, select {
 /* media query for tablet */
 @media screen and (min-width: 700px){
     /* index page tablet view */
-    .darcy {
-        color:black;
-    }
     .index-header {
         background-attachment: fixed;
         background-image: url(../images/mom.jpg);
