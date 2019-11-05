@@ -365,44 +365,44 @@ input, select {
         grid-row: 5;
     }
     .cc_cookies-card img {
-        width:500px;
-        height:400px;
+        width:350px;
+        height:250px;
     }
     .brownies-card img {
-        width:500px;
-        height:400px;
+        width:350px;
+        height:250px;
     }
     .cupcakes-card img {
-        width:500px;
-        height:400px;
+        width:350px;
+        height:250px;
     }
     .pb_cookies-card img {
-        width:500px;
-        height:400px;
+        width:350px;
+        height:250px;
     }
     .santa_brownies-card img {
-        width:500px;
-        height:400px;
+        width:350px;
+        height:250px;
     }
     .pb_cake-card img {
-        width:500px;
-        height:400px;
+        width:350px;
+        height:250px;
     }
     .rice_krispies-card img {
-        width:500px;
-        height:400px;
+        width:350px;
+        height:250px;
     }
     .baby_cookies-card img {
-        width:500px;
-        height:400px;
+        width:350px;
+        height:250px;
     }
     .pineapple_cake-card img {
-        width:500px;
-        height:400px;
+        width:350px;
+        height:250px;
     }
     .apple_cake-card img {
-        width:500px;
-        height:400px;
+        width:350px;
+        height:250px;
     }
 
 }
@@ -504,18 +504,18 @@ input, select {
     .gallery-container {
         display: grid;
         padding: 15px;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 333px 333px 333px;
         grid-row-gap: 15px;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         width: 100vw;
     }
     .cc_cookies-card img {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
     }
     .cc_cookies-card {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 1;
@@ -552,16 +552,16 @@ input, select {
         transform: rotateY(180deg);
     }
     .brownies-card {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 2;
         grid-row: 1;
     }
     .brownies-card img {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
     }
     .brownies-card-content {
         position: relative;
@@ -594,8 +594,8 @@ input, select {
         transform: rotateY(180deg);
     }
     .cupcakes-card {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 3;
@@ -603,8 +603,8 @@ input, select {
         justify-self: center;
     }
     .cupcakes-card img {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
     }
     .cupcakes-card-content {
         position: relative;
@@ -637,8 +637,8 @@ input, select {
         transform: rotateY(180deg);
     }
     .pb_cookies-card {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 1;
@@ -646,8 +646,8 @@ input, select {
         margin: auto;
     }
     .pb_cookies-card img {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
     }
     .pb_cookies-card-content {
         position: relative;
@@ -680,8 +680,8 @@ input, select {
         transform: rotateY(180deg);
     }
     .santa_brownies-card {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 2;
@@ -690,8 +690,8 @@ input, select {
         justify-content: center;
     }
     .santa_brownies-card img {
-        width:400px;
-        height:300px;
+        width:100%;
+        height:100%;
     }
     .santa_brownies-card-content {
         position: relative;
@@ -724,8 +724,8 @@ input, select {
         transform: rotateY(180deg);
     }
     .pb_cake-card {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 3;
@@ -734,8 +734,8 @@ input, select {
         justify-content: center;
     }
     .pb_cake-card img {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
     }
     .pb_cake-card-content {
         position: relative;
@@ -768,8 +768,8 @@ input, select {
         transform: rotateY(180deg);
     }
     .rice_krispies-card {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 1;
@@ -778,8 +778,8 @@ input, select {
         justify-content: center;
     }
     .rice_krispies-card img {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
     }
     .rice_krispies-card-content {
         position: relative;
@@ -812,8 +812,8 @@ input, select {
         transform: rotateY(180deg);
     }
     .baby_cookies-card {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 2;
@@ -822,8 +822,8 @@ input, select {
         justify-content: center;
     }
     .baby_cookies-card img {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
     }
     .baby_cookies-card-content {
         position: relative;
@@ -856,8 +856,8 @@ input, select {
         transform: rotateY(180deg);
     }
     .pineapple_cake-card {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 3;
@@ -866,8 +866,8 @@ input, select {
         justify-content: center;
     }
     .pineapple_cake-card img {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
     }
     .pineapple_cake-card-content {
         position: relative;
@@ -900,8 +900,8 @@ input, select {
         transform: rotateY(180deg);
     }
     .apple_cake-card {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
         perspective: 1000px; 
         background-color: transparent;
         grid-column: 2;
@@ -910,8 +910,8 @@ input, select {
         justify-content: center;
     }
     .apple_cake-card img {
-        width:400px;
-        height:300px;
+        width:333px;
+        height:233px;
     }
     .apple_cake-card-content {
         position: relative;
@@ -1022,3 +1022,21 @@ input, select {
         filter: grayscale(0%);;
     }
 }
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+    .skip a{
+      background: white;
+      left: 0;
+      padding: 6px;
+      position: absolute;
+      top: -40px;
+      -webkit-transition: top 1s ease-out; /* Your code here - set to default setting */
+      transition: top 1s ease-out; /* Your code here - set to default setting */
+      z-index: 1;
+    }
+    .skip a:focus{
+      top:0;
+    }
+  }
