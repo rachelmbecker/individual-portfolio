@@ -33,6 +33,7 @@ nav {
     display: flex;
     flex-direction: column;
     padding: 15px;
+    text-align: center;
 }
 nav a {
     color: white;
