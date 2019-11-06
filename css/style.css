@@ -998,10 +998,10 @@ input, select {
     }
     /* colleen told me during office hours that it was fine that my filtered image wasnt on my gallery page */
     .mom img {
-        filter: grayscale(50%);;
+        filter: grayscale(50%);
     }
     .mom img:hover {
-        filter: grayscale(0%);;
+        filter: grayscale(0%);
     }
 }
 @media screen and (prefers-reduced-motion: reduce){
