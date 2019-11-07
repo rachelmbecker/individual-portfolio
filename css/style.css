@@ -156,6 +156,9 @@ p {
     justify-self: center;
     margin: auto;
 }
+#main h2{
+    display: none;
+}
 .cc_cookies-card {
     grid-column: 1;
     justify-self: center;
@@ -475,6 +478,9 @@ input, select {
         grid-row-gap: 15px;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         width: 100vw;
+    }
+    #main h2{
+        display: block;
     }
     .cc_cookies-card img {
         width:333px;
