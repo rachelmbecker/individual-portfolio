@@ -261,7 +261,7 @@ form{
     grid-column: 1;
     text-align: center;
 }
-form div{
+/* form div{
     display:inline-block;
     width: 100%;
     padding: 5px;
@@ -270,6 +270,9 @@ button.btn {
     display: block;
     margin: 0 auto;
     background-color: white;
+} */
+label {
+    grid-column: 1;
 }
 .mom {
     grid-column: 1;
@@ -282,6 +285,7 @@ input, select {
     height: 50px;
     width: 400px;
 }
+
 
 /* media query for tablet */
 @media screen and (min-width: 700px){

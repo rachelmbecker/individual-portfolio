@@ -27,7 +27,7 @@
 <div class='contact-container'>
 <!-- http://www.prepbootstrap.com/bootstrap-template/contact-form -->
 
-<form class="form-horizontal" method="post">
+<!-- <form class="form-horizontal" method="post">
     <fieldset>
         <legend class="text-center-header">Your Contact Information</legend>
 
@@ -72,6 +72,27 @@
             </div>
         </div>
     </fieldset>
+</form> -->
+<form
+  action="https://formspree.io/xeqqqrny"
+  method="POST"
+>
+  <label>
+    Your name:
+    <input type='text' name='_yourname'>
+  </label>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
 </form>
 
 <div class='mom'>
@@ -80,8 +101,7 @@
 
 </div>
 <footer>
-        <p>University of Michigan School of Information <br/>
-          &copy; Rachel Becker - 2019-2020</p>
+    <p>University of Michigan School of Information - Rachel Becker - 2019-2020</p>
 </footer>
 </body>
             
