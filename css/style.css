@@ -259,20 +259,13 @@ p {
 }
 form{
     grid-column: 1;
-    text-align: center;
+    text-align: left;
 }
-/* form div{
+label {
+    grid-column: 1;
     display:inline-block;
     width: 100%;
     padding: 5px;
-}
-button.btn {
-    display: block;
-    margin: 0 auto;
-    background-color: white;
-} */
-label {
-    grid-column: 1;
 }
 .mom {
     grid-column: 1;
