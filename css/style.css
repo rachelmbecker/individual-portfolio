@@ -262,7 +262,7 @@ p {
     grid-column-gap: 15px;
     width: 100vw;
 }
-form{
+form {
     grid-column: 1;
     text-align: left;
 }
