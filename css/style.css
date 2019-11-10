@@ -23,6 +23,9 @@ a:focus{
 :focus {
     border: 2px solid black;
 }
+ul li{
+    padding: 5px;
+}
 nav a:hover{
     background-color: white;
     color: black;
